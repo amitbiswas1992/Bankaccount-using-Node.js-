@@ -19,7 +19,7 @@ function getAccount (username) {
 	return matchedAccount;
 }
 
-
+// only accept numbers , 
 function deposit (account, amount) {
 	account.balance += amount;
 }
